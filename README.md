@@ -82,12 +82,3 @@ The production output is generated in the `dist/` directory.
 
 ---
 
-## 🚀 GitHub Pages Deployment
-
-This repository includes a GitHub Actions workflow in `.github/workflows/deploy.yml` that automatically builds and deploys the platform to GitHub Pages whenever changes are pushed to `main`.
-
-To enable it:
-1. Go to your repository on GitHub.
-2. Click **Settings** > **Pages** (under Code and automation).
-3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-4. Push to `main` — GitHub will automatically build and publish your site!
