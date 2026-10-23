@@ -1,0 +1,1674 @@
+{
+  "modules": [
+    {
+      "id": "module-1",
+      "moduleIndex": 1,
+      "name": "1. C# Fundamentals",
+      "topics": [
+        {
+          "id": "topic-1-1",
+          "order": 1,
+          "title": "Language Basics",
+          "rawText": "Language Basics : Variables, data types, constants; operators; type casting; value types vs reference types",
+          "description": "Variables, data types, constants; operators; type casting; value types vs reference types",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-2",
+          "order": 2,
+          "title": "Control Flow",
+          "rawText": "Control Flow : if/else, switch (including switch expressions); while, for, foreach; break, continue",
+          "description": "if/else, switch (including switch expressions); while, for, foreach; break, continue",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-3",
+          "order": 3,
+          "title": "Methods & Functions",
+          "rawText": "Methods & Functions : Method signatures; parameters (ref, out, in); return types; overloading",
+          "description": "Method signatures; parameters (ref, out, in); return types; overloading",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-4",
+          "order": 4,
+          "title": "OOP Concepts",
+          "rawText": "OOP Concepts : Classes, fields, properties, constructors; this; access modifiers; namespaces",
+          "description": "Classes, fields, properties, constructors; this; access modifiers; namespaces",
+          "hours": {
+            "sme": 4,
+            "handsOn": 8,
+            "elearn": 4,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-5",
+          "order": 5,
+          "title": "Inheritance & Polymorphism",
+          "rawText": "Inheritance & Polymorphism : Interfaces, abstract classes; method overriding; inheritance hierarchies; early & late binding",
+          "description": "Interfaces, abstract classes; method overriding; inheritance hierarchies; early & late binding",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-6",
+          "order": 6,
+          "title": "Modern C# Types",
+          "rawText": "Modern C# Types : Records; structs; tuples; when to use each",
+          "description": "Records; structs; tuples; when to use each",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-7",
+          "order": 7,
+          "title": "Exception Handling",
+          "rawText": "Exception Handling : try-catch-finally; throw; custom exceptions; exception filters",
+          "description": "try-catch-finally; throw; custom exceptions; exception filters",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-8",
+          "order": 8,
+          "title": "Collections",
+          "rawText": "Collections : List, Dictionary, HashSet, Queue, Stack; IEnumerable; iteration patterns; when to use which collection",
+          "description": "List, Dictionary, HashSet, Queue, Stack; IEnumerable; iteration patterns; when to use which collection",
+          "hours": {
+            "sme": 4,
+            "handsOn": 8,
+            "elearn": 4,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-9",
+          "order": 9,
+          "title": "Generics",
+          "rawText": "Generics : Generic classes, methods, constraints; covariance & contravariance awareness",
+          "description": "Generic classes, methods, constraints; covariance & contravariance awareness",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-10",
+          "order": 10,
+          "title": "Delegates, Lambdas & Events",
+          "rawText": "Delegates, Lambdas & Events : Delegate types; lambda expressions; Action, Func, Predicate; events & event handlers",
+          "description": "Delegate types; lambda expressions; Action, Func, Predicate; events & event handlers",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-11",
+          "order": 11,
+          "title": "Memory Management",
+          "rawText": "Memory Management : Value vs reference types on stack/heap; garbage collection basics; IDisposable & using",
+          "description": "Value vs reference types on stack/heap; garbage collection basics; IDisposable & using",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-12",
+          "order": 12,
+          "title": "AI Integration",
+          "rawText": "AI Integration : Using Copilot for boilerplate generation (classes, properties, collections code); critically reviewing AI-generated OOP code",
+          "description": "Using Copilot for boilerplate generation (classes, properties, collections code); critically reviewing AI-generated OOP code",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-1-13",
+          "order": 13,
+          "title": "Assessment 1: C# Fundamentals Checkpoint",
+          "rawText": "Assessment 1: C# Fundamentals Checkpoint : Coding exercise: OOP design, collections manipulation, delegates, LINQ-ready data processing problem",
+          "description": "Coding exercise: OOP design, collections manipulation, delegates, LINQ-ready data processing problem",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "moduleIndex": 2,
+      "name": "2. Modern C# & .NET",
+      "topics": [
+        {
+          "id": "topic-2-1",
+          "order": 14,
+          "title": "LINQ",
+          "rawText": "LINQ : Query syntax & method syntax; filtering, projection, aggregation; deferred execution; LINQ to Objects",
+          "description": "Query syntax & method syntax; filtering, projection, aggregation; deferred execution; LINQ to Objects",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-2-2",
+          "order": 15,
+          "title": "Asynchronous Programming",
+          "rawText": "Asynchronous Programming : async/await; Task & Task<T>; when to use async; common pitfalls (deadlocks, fire-and-forget)",
+          "description": "async/await; Task & Task<T>; when to use async; common pitfalls (deadlocks, fire-and-forget)",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-2-3",
+          "order": 16,
+          "title": "Extension Methods",
+          "rawText": "Extension Methods : Creating & using extension methods; method chaining patterns",
+          "description": "Creating & using extension methods; method chaining patterns",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-2-4",
+          "order": 17,
+          "title": ".NET Platform",
+          "rawText": ".NET Platform : .NET 6/7/8 evolution; runtime, SDK, CLR; project structure; dotnet CLI",
+          "description": ".NET 6/7/8 evolution; runtime, SDK, CLR; project structure; dotnet CLI",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-2-5",
+          "order": 18,
+          "title": "NuGet & Assemblies",
+          "rawText": "NuGet & Assemblies : Package management; csproj & dependencies; assemblies; libraries",
+          "description": "Package management; csproj & dependencies; assemblies; libraries",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-2-6",
+          "order": 19,
+          "title": "File Handling & Serialization",
+          "rawText": "File Handling & Serialization : File I/O; streams; JSON serialization (System.Text.Json); XML awareness",
+          "description": "File I/O; streams; JSON serialization (System.Text.Json); XML awareness",
+          "hours": {
+            "sme": 2,
+            "handsOn": 4,
+            "elearn": 2,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-2-7",
+          "order": 20,
+          "title": "Configuration",
+          "rawText": "Configuration : appsettings.json; environment-based config; options pattern; user secrets",
+          "description": "appsettings.json; environment-based config; options pattern; user secrets",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-2-8",
+          "order": 21,
+          "title": "AI Integration",
+          "rawText": "AI Integration : Generating LINQ queries and async code with Copilot; validating AI-generated async patterns for correctness",
+          "description": "Generating LINQ queries and async code with Copilot; validating AI-generated async patterns for correctness",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "moduleIndex": 3,
+      "name": "3. Version Control – Git",
+      "topics": [
+        {
+          "id": "topic-3-1",
+          "order": 22,
+          "title": "Git Fundamentals",
+          "rawText": "Git Fundamentals : Init, clone, add, commit, push, pull; .gitignore; SSH setup",
+          "description": "Init, clone, add, commit, push, pull; .gitignore; SSH setup",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-3-2",
+          "order": 23,
+          "title": "Branching & Merging",
+          "rawText": "Branching & Merging : Branches, merge, rebase; resolving conflicts",
+          "description": "Branches, merge, rebase; resolving conflicts",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-4",
+      "moduleIndex": 4,
+      "name": "4. Build Tools, IDE & Debugging",
+      "topics": [
+        {
+          "id": "topic-4-1",
+          "order": 24,
+          "title": "dotnet CLI & Project System",
+          "rawText": "dotnet CLI & Project System : dotnet new, build, run, publish; solution & project structure; csproj; multi-project solutions awareness",
+          "description": "dotnet new, build, run, publish; solution & project structure; csproj; multi-project solutions awareness",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-4-2",
+          "order": 25,
+          "title": "NuGet",
+          "rawText": "NuGet : Package sources; versioning; restoring; managing dependencies",
+          "description": "Package sources; versioning; restoring; managing dependencies",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-4-3",
+          "order": 26,
+          "title": "IDE & Debugging",
+          "rawText": "IDE & Debugging : Visual Studio / VS Code; breakpoints, conditional breakpoints, logpoints; step in/out/over; watch variables; call stacks; hot reload; diagnostic tools",
+          "description": "Visual Studio / VS Code; breakpoints, conditional breakpoints, logpoints; step in/out/over; watch variables; call stacks; hot reload; diagnostic tools",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-4-4",
+          "order": 27,
+          "title": "AI Integration",
+          "rawText": "AI Integration : Using Copilot for debugging assistance; interpreting stack traces and exceptions with AI",
+          "description": "Using Copilot for debugging assistance; interpreting stack traces and exceptions with AI",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-5",
+      "moduleIndex": 5,
+      "name": "5. SQL & Database",
+      "topics": [
+        {
+          "id": "topic-5-1",
+          "order": 28,
+          "title": "Relational Database Concepts",
+          "rawText": "Relational Database Concepts : Tables, relationships, normalization (1NF–3NF); when to use RDBMS",
+          "description": "Tables, relationships, normalization (1NF–3NF); when to use RDBMS",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-5-2",
+          "order": 29,
+          "title": "CRUD Operations",
+          "rawText": "CRUD Operations : CREATE, INSERT, UPDATE, DELETE; SELECT with WHERE, IN, BETWEEN, LIKE",
+          "description": "CREATE, INSERT, UPDATE, DELETE; SELECT with WHERE, IN, BETWEEN, LIKE",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-5-3",
+          "order": 30,
+          "title": "Joins & Aggregations",
+          "rawText": "Joins & Aggregations : INNER, LEFT, RIGHT, FULL joins; GROUP BY, HAVING; COUNT, SUM, AVG",
+          "description": "INNER, LEFT, RIGHT, FULL joins; GROUP BY, HAVING; COUNT, SUM, AVG",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-5-4",
+          "order": 31,
+          "title": "Indexing & Performance",
+          "rawText": "Indexing & Performance : Index types; query execution plans (EXPLAIN); when to index; common pitfalls",
+          "description": "Index types; query execution plans (EXPLAIN); when to index; common pitfalls",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-5-5",
+          "order": 32,
+          "title": "Transactions",
+          "rawText": "Transactions : COMMIT, ROLLBACK; ACID properties; isolation levels awareness",
+          "description": "COMMIT, ROLLBACK; ACID properties; isolation levels awareness",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-5-6",
+          "order": 33,
+          "title": "Views & Constraints",
+          "rawText": "Views & Constraints : Views; foreign keys, unique, check constraints; cascading; triggers awareness",
+          "description": "Views; foreign keys, unique, check constraints; cascading; triggers awareness",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-5-7",
+          "order": 34,
+          "title": "Stored Procedures & Functions",
+          "rawText": "Stored Procedures & Functions : Built-in functions; user-defined functions; stored procedures basics; when to use",
+          "description": "Built-in functions; user-defined functions; stored procedures basics; when to use",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-5-8",
+          "order": 35,
+          "title": "AI Integration",
+          "rawText": "AI Integration : Generating SQL queries with Copilot; validating AI-generated joins and aggregations for correctness",
+          "description": "Generating SQL queries with Copilot; validating AI-generated joins and aggregations for correctness",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-5-9",
+          "order": 36,
+          "title": "Assessment 2: C# + SQL Checkpoint",
+          "rawText": "Assessment 2: C# + SQL Checkpoint : Build a C# console app that connects to a database, performs CRUD with LINQ-based data processing",
+          "description": "Build a C# console app that connects to a database, performs CRUD with LINQ-based data processing",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-6",
+      "moduleIndex": 6,
+      "name": "6. ASP.NET Core & REST API Development",
+      "topics": [
+        {
+          "id": "topic-6-1",
+          "order": 37,
+          "title": "ASP.NET Core Fundamentals",
+          "rawText": "ASP.NET Core Fundamentals : Project structure; application startup lifecycle; middleware pipeline; routing fundamentals; Program.cs; dependency injection basics; configuration and environment management; minimal APIs; MVC pattern overview",
+          "description": "Project structure; application startup lifecycle; middleware pipeline; routing fundamentals; Program.cs; dependency injection basics; configuration and environment management; minimal APIs; MVC pattern overview",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-6-2",
+          "order": 38,
+          "title": "ASP.NET Core MVC (Model–View–Controller)",
+          "rawText": "ASP.NET Core MVC (Model–View–Controller) : MVC architecture and request flow; controllers and actions; views and Razor syntax; models and view models; layouts and partial views; MVC routing; separation of concerns",
+          "description": "MVC architecture and request flow; controllers and actions; views and Razor syntax; models and view models; layouts and partial views; MVC routing; separation of concerns",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-6-3",
+          "order": 39,
+          "title": "Razor Views and UI Binding (MVC)",
+          "rawText": "Razor Views and UI Binding (MVC) : Razor syntax basics; strongly typed views; HTML helpers and tag helpers; form binding; model validation in views; TempData and ViewData usage",
+          "description": "Razor syntax basics; strongly typed views; HTML helpers and tag helpers; form binding; model validation in views; TempData and ViewData usage",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-6-4",
+          "order": 40,
+          "title": "REST Design Principles",
+          "rawText": "REST Design Principles : HTTP method semantics (GET, POST, PUT, PATCH, DELETE); status codes (2xx, 4xx, 5xx); resource-oriented design; naming conventions; statelessness; idempotency; HATEOAS awareness",
+          "description": "HTTP method semantics (GET, POST, PUT, PATCH, DELETE); status codes (2xx, 4xx, 5xx); resource-oriented design; naming conventions; statelessness; idempotency; HATEOAS awareness",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-6-5",
+          "order": 41,
+          "title": "RESTful API Development",
+          "rawText": "RESTful API Development : API controllers; attribute routing; model binding; DTOs; path parameters and query parameters; request/response formats; content negotiation; API-first design",
+          "description": "API controllers; attribute routing; model binding; DTOs; path parameters and query parameters; request/response formats; content negotiation; API-first design",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-6-6",
+          "order": 42,
+          "title": "API Versioning",
+          "rawText": "API Versioning : Why and when to version APIs; URI-based vs header-based versioning; backward compatibility considerations; versioning strategy awareness",
+          "description": "Why and when to version APIs; URI-based vs header-based versioning; backward compatibility considerations; versioning strategy awareness",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-6-7",
+          "order": 43,
+          "title": "Validation and Error Handling",
+          "rawText": "Validation and Error Handling : Data annotations; model state validation; FluentValidation awareness; global exception handling using middleware and filters; consistent errors using ProblemDetails (RFC 7807)",
+          "description": "Data annotations; model state validation; FluentValidation awareness; global exception handling using middleware and filters; consistent errors using ProblemDetails (RFC 7807)",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-6-8",
+          "order": 44,
+          "title": "API Documentation",
+          "rawText": "API Documentation : OpenAPI 3.0 concepts; Swagger integration; generating API documentation; reading and validating API specifications",
+          "description": "OpenAPI 3.0 concepts; Swagger integration; generating API documentation; reading and validating API specifications",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-6-9",
+          "order": 45,
+          "title": "Entity Framework Core",
+          "rawText": "Entity Framework Core : DbContext; entities and relationships; migrations; LINQ queries; change tracking; repository pattern awareness; SaveChanges and transactions",
+          "description": "DbContext; entities and relationships; migrations; LINQ queries; change tracking; repository pattern awareness; SaveChanges and transactions",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-6-10",
+          "order": 46,
+          "title": "Authentication and Authorization",
+          "rawText": "Authentication and Authorization : Authentication vs authorization concepts; ASP.NET Core authorization pipeline; role-based and policy-based authorization; Authorize attributes; JWT awareness for APIs",
+          "description": "Authentication vs authorization concepts; ASP.NET Core authorization pipeline; role-based and policy-based authorization; Authorize attributes; JWT awareness for APIs",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-6-11",
+          "order": 47,
+          "title": "Concurrency Control",
+          "rawText": "Concurrency Control : Optimistic concurrency using Timestamp / RowVersion; handling concurrency conflicts; pessimistic locking concepts and use-case awareness",
+          "description": "Optimistic concurrency using Timestamp / RowVersion; handling concurrency conflicts; pessimistic locking concepts and use-case awareness",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-6-12",
+          "order": 48,
+          "title": "AI Integration",
+          "rawText": "AI Integration : Using AI tools such as Copilot to generate controllers, DTOs, and EF models; reviewing AI-generated code for MVC anti-patterns, REST violations, missing validations, and security gaps",
+          "description": "Using AI tools such as Copilot to generate controllers, DTOs, and EF models; reviewing AI-generated code for MVC anti-patterns, REST violations, missing validations, and security gaps",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-7",
+      "moduleIndex": 7,
+      "name": "7. ASP.NET Core Security",
+      "topics": [
+        {
+          "id": "topic-7-1",
+          "order": 49,
+          "title": "Authentication & Authorization",
+          "rawText": "Authentication & Authorization : Concepts; ASP.NET Core Identity overview; policy-based & role-based authorization",
+          "description": "Concepts; ASP.NET Core Identity overview; policy-based & role-based authorization",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-7-2",
+          "order": 50,
+          "title": "JWT Authentication",
+          "rawText": "JWT Authentication : Token structure; login flow; token validation; stateless auth; refresh tokens",
+          "description": "Token structure; login flow; token validation; stateless auth; refresh tokens",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-7-3",
+          "order": 51,
+          "title": "CORS, CSRF & Common Pitfalls",
+          "rawText": "CORS, CSRF & Common Pitfalls : Configuration; common mistakes; what AI tools often get wrong in security config",
+          "description": "Configuration; common mistakes; what AI tools often get wrong in security config",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-7-4",
+          "order": 52,
+          "title": "AI Integration",
+          "rawText": "AI Integration : Reviewing Copilot-generated security configurations; exercises identifying security flaws in AI-generated auth code",
+          "description": "Reviewing Copilot-generated security configurations; exercises identifying security flaws in AI-generated auth code",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-8",
+      "moduleIndex": 8,
+      "name": "8. Backend Testing & Code Quality",
+      "topics": [
+        {
+          "id": "topic-8-1",
+          "order": 53,
+          "title": "xUnit",
+          "rawText": "xUnit : Test structure; assertions; lifecycle (IClassFixture, ICollectionFixture); parameterized tests ([Theory], [InlineData])",
+          "description": "Test structure; assertions; lifecycle (IClassFixture, ICollectionFixture); parameterized tests ([Theory], [InlineData])",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-8-2",
+          "order": 54,
+          "title": "Moq",
+          "rawText": "Moq : Mocks, setup, returns; behavior verification; callback; It matchers",
+          "description": "Mocks, setup, returns; behavior verification; callback; It matchers",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-8-3",
+          "order": 55,
+          "title": "Integration Testing",
+          "rawText": "Integration Testing : WebApplicationFactory; TestContainers basics; in-memory database testing",
+          "description": "WebApplicationFactory; TestContainers basics; in-memory database testing",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-8-4",
+          "order": 56,
+          "title": "Best Coding Practices",
+          "rawText": "Best Coding Practices : Clean code fundamentals; separation of concerns; meaningful naming; avoiding magic values; defensive coding basics; writing readable and testable code",
+          "description": "Clean code fundamentals; separation of concerns; meaningful naming; avoiding magic values; defensive coding basics; writing readable and testable code",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-8-5",
+          "order": 57,
+          "title": "Coding Standards",
+          "rawText": "Coding Standards : .NET coding conventions; naming standards; project and folder structure conventions; consistent exception handling patterns; logging practices awareness; code readability and consistency guidelines",
+          "description": ".NET coding conventions; naming standards; project and folder structure conventions; consistent exception handling patterns; logging practices awareness; code readability and consistency guidelines",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-8-6",
+          "order": 58,
+          "title": "Code Coverage",
+          "rawText": "Code Coverage : Concept of code coverage; coverage types; interpreting reports and metrics; coverage versus real code quality",
+          "description": "Concept of code coverage; coverage types; interpreting reports and metrics; coverage versus real code quality",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-8-7",
+          "order": 59,
+          "title": "SonarQube",
+          "rawText": "SonarQube : Purpose of SonarQube; quality gates; understanding bugs, code smells, and vulnerabilities; interpreting analysis reports",
+          "description": "Purpose of SonarQube; quality gates; understanding bugs, code smells, and vulnerabilities; interpreting analysis reports",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-8-8",
+          "order": 60,
+          "title": "AI Integration",
+          "rawText": "AI Integration : Generating test cases with Copilot; improving test coverage with AI; critically reviewing AI-generated mocks for correctness",
+          "description": "Generating test cases with Copilot; improving test coverage with AI; critically reviewing AI-generated mocks for correctness",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-8-9",
+          "order": 61,
+          "title": "Assessment 3: Backend Checkpoint",
+          "rawText": "Assessment 3: Backend Checkpoint : Build an ASP.NET Core REST API with JWT auth, validation, EF Core persistence, and >60% test coverage",
+          "description": "Build an ASP.NET Core REST API with JWT auth, validation, EF Core persistence, and >60% test coverage",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-9",
+      "moduleIndex": 9,
+      "name": "9. Logging",
+      "topics": [
+        {
+          "id": "topic-9-1",
+          "order": 62,
+          "title": "Structured Logging",
+          "rawText": "Structured Logging : Serilog / NLog; log levels; structured log properties; what to log, what NOT to log (no PII, no secrets)",
+          "description": "Serilog / NLog; log levels; structured log properties; what to log, what NOT to log (no PII, no secrets)",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-10",
+      "moduleIndex": 10,
+      "name": "10. Design Patterns & SOLID",
+      "topics": [
+        {
+          "id": "topic-10-1",
+          "order": 63,
+          "title": "SOLID Principles",
+          "rawText": "SOLID Principles : Single Responsibility; Open/Closed; Liskov Substitution; Interface Segregation; Dependency Inversion — with C# examples",
+          "description": "Single Responsibility; Open/Closed; Liskov Substitution; Interface Segregation; Dependency Inversion — with C# examples",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-10-2",
+          "order": 64,
+          "title": "Key Design Patterns",
+          "rawText": "Key Design Patterns : Repository; Factory; Singleton; Adapter etc — when to use each, with practical .NET examples",
+          "description": "Repository; Factory; Singleton; Adapter etc — when to use each, with practical .NET examples",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-11",
+      "moduleIndex": 11,
+      "name": "11. HTML5 & CSS3 Fundamentals",
+      "topics": [
+        {
+          "id": "topic-11-1",
+          "order": 65,
+          "title": "HTML5",
+          "rawText": "HTML5 : Semantic elements; forms & validation; accessibility basics (ARIA roles)",
+          "description": "Semantic elements; forms & validation; accessibility basics (ARIA roles)",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-11-2",
+          "order": 66,
+          "title": "CSS3",
+          "rawText": "CSS3 : Box model; flexbox; grid; responsive design; media queries",
+          "description": "Box model; flexbox; grid; responsive design; media queries",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-11-3",
+          "order": 67,
+          "title": "Bootstrap5",
+          "rawText": "Bootstrap5 : Grid system and responsive layout; containers, rows, and columns; typography and utility classes; common UI components (buttons, cards, navbars, forms); responsive utilities and breakpoints; basic theming and customization",
+          "description": "Grid system and responsive layout; containers, rows, and columns; typography and utility classes; common UI components (buttons, cards, navbars, forms); responsive utilities and breakpoints; basic theming and customization",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-12",
+      "moduleIndex": 12,
+      "name": "12. JavaScript Fundamentals",
+      "topics": [
+        {
+          "id": "topic-12-1",
+          "order": 68,
+          "title": "Language Basics",
+          "rawText": "Language Basics : Syntax; variables (let, const, var); data types; operators; type coercion",
+          "description": "Syntax; variables (let, const, var); data types; operators; type coercion",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-12-2",
+          "order": 69,
+          "title": "Functions & Scope",
+          "rawText": "Functions & Scope : Function declarations/expressions; closures; hoisting; scope chain",
+          "description": "Function declarations/expressions; closures; hoisting; scope chain",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-12-3",
+          "order": 70,
+          "title": "DOM Manipulation & Events",
+          "rawText": "DOM Manipulation & Events : DOM traversal; event handling; event delegation; form handling",
+          "description": "DOM traversal; event handling; event delegation; form handling",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-12-4",
+          "order": 71,
+          "title": "ES6+ Features",
+          "rawText": "ES6+ Features : Arrow functions; destructuring; spread/rest; template literals; modules (import/export)",
+          "description": "Arrow functions; destructuring; spread/rest; template literals; modules (import/export)",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-12-5",
+          "order": 72,
+          "title": "Asynchronous JavaScript",
+          "rawText": "Asynchronous JavaScript : Callbacks; Promises; async/await; Fetch API; error handling in async code",
+          "description": "Callbacks; Promises; async/await; Fetch API; error handling in async code",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-12-6",
+          "order": 73,
+          "title": "JSON & Data Handling",
+          "rawText": "JSON & Data Handling : JSON parsing; working with APIs; data transformation patterns",
+          "description": "JSON parsing; working with APIs; data transformation patterns",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-12-7",
+          "order": 74,
+          "title": "AI Integration",
+          "rawText": "AI Integration : Using Copilot for JS code generation; identifying AI mistakes in async code and closures",
+          "description": "Using Copilot for JS code generation; identifying AI mistakes in async code and closures",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-13",
+      "moduleIndex": 13,
+      "name": "13. TypeScript",
+      "topics": [
+        {
+          "id": "topic-13-1",
+          "order": 75,
+          "title": "TypeScript Fundamentals",
+          "rawText": "TypeScript Fundamentals : Types, interfaces, enums; type inference; union & intersection types",
+          "description": "Types, interfaces, enums; type inference; union & intersection types",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-13-2",
+          "order": 76,
+          "title": "Classes & OOP in TypeScript",
+          "rawText": "Classes & OOP in TypeScript : Classes; inheritance; abstract classes; implements vs extends; access modifiers",
+          "description": "Classes; inheritance; abstract classes; implements vs extends; access modifiers",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-13-3",
+          "order": 77,
+          "title": "Advanced Types",
+          "rawText": "Advanced Types : Utility types; type guards; discriminated unions; generics; module declarations",
+          "description": "Utility types; type guards; discriminated unions; generics; module declarations",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-13-4",
+          "order": 78,
+          "title": "Decorators",
+          "rawText": "Decorators : Decorator syntax; class, method, property decorators — essential for Angular",
+          "description": "Decorator syntax; class, method, property decorators — essential for Angular",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-14",
+      "moduleIndex": 14,
+      "name": "14. Angular",
+      "topics": [
+        {
+          "id": "topic-14-1",
+          "order": 79,
+          "title": "Angular Fundamentals",
+          "rawText": "Angular Fundamentals : Angular CLI; project structure; modules; components; templates; data binding (interpolation, property, event, two-way)",
+          "description": "Angular CLI; project structure; modules; components; templates; data binding (interpolation, property, event, two-way)",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-14-2",
+          "order": 80,
+          "title": "Components & Communication",
+          "rawText": "Components & Communication : Input/Output decorators; component lifecycle hooks; ViewChild; content projection",
+          "description": "Input/Output decorators; component lifecycle hooks; ViewChild; content projection",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-14-3",
+          "order": 81,
+          "title": "Directives & Pipes",
+          "rawText": "Directives & Pipes : Structural directives (*ngIf, *ngFor, @if, @for); attribute directives; built-in & custom pipes",
+          "description": "Structural directives (*ngIf, *ngFor, @if, @for); attribute directives; built-in & custom pipes",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-14-4",
+          "order": 82,
+          "title": "Dependency Injection & Services",
+          "rawText": "Dependency Injection & Services : Angular DI system; injectable services; providedIn; HTTP interceptors",
+          "description": "Angular DI system; injectable services; providedIn; HTTP interceptors",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-14-5",
+          "order": 83,
+          "title": "Routing & Navigation",
+          "rawText": "Routing & Navigation : Router module; route params; lazy loading modules; route guards; nested routes",
+          "description": "Router module; route params; lazy loading modules; route guards; nested routes",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-14-6",
+          "order": 84,
+          "title": "Reactive Programming (RxJS)",
+          "rawText": "Reactive Programming (RxJS) : Observables; Subject, BehaviorSubject; operators (map, filter, switchMap, mergeMap, combineLatest); subscription management; async pipe",
+          "description": "Observables; Subject, BehaviorSubject; operators (map, filter, switchMap, mergeMap, combineLatest); subscription management; async pipe",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-14-7",
+          "order": 85,
+          "title": "HTTP Client",
+          "rawText": "HTTP Client : HttpClient module; GET, POST, PUT, DELETE; error handling; interceptors for auth tokens",
+          "description": "HttpClient module; GET, POST, PUT, DELETE; error handling; interceptors for auth tokens",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-14-8",
+          "order": 86,
+          "title": "Forms",
+          "rawText": "Forms : Template-driven forms; reactive forms (FormGroup, FormControl, FormArray); validation (built-in & custom validators); dynamic forms",
+          "description": "Template-driven forms; reactive forms (FormGroup, FormControl, FormArray); validation (built-in & custom validators); dynamic forms",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-14-9",
+          "order": 87,
+          "title": "State Management",
+          "rawText": "State Management : Service-based state; NgRx awareness (Store, Actions, Reducers, Effects) — when to use vs simpler patterns",
+          "description": "Service-based state; NgRx awareness (Store, Actions, Reducers, Effects) — when to use vs simpler patterns",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-14-10",
+          "order": 88,
+          "title": "Advanced Topics",
+          "rawText": "Advanced Topics : Standalone components; signals (Angular 16+); lazy loading & performance optimization; change detection strategies",
+          "description": "Standalone components; signals (Angular 16+); lazy loading & performance optimization; change detection strategies",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-14-11",
+          "order": 89,
+          "title": "AI Integration",
+          "rawText": "AI Integration : Generating components, services, and forms with Copilot; reviewing AI output for RxJS anti-patterns, memory leaks (unsubscribed observables), and accessibility gaps",
+          "description": "Generating components, services, and forms with Copilot; reviewing AI output for RxJS anti-patterns, memory leaks (unsubscribed observables), and accessibility gaps",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-15",
+      "moduleIndex": 15,
+      "name": "15. Angular Testing",
+      "topics": [
+        {
+          "id": "topic-15-1",
+          "order": 90,
+          "title": "Jasmine & Karma",
+          "rawText": "Jasmine & Karma : Test structure; matchers; spies; TestBed setup; component testing",
+          "description": "Test structure; matchers; spies; TestBed setup; component testing",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-15-2",
+          "order": 91,
+          "title": "Component & Service Testing",
+          "rawText": "Component & Service Testing : Shallow vs deep testing; mocking services; testing async operations; testing HTTP calls with HttpClientTestingModule",
+          "description": "Shallow vs deep testing; mocking services; testing async operations; testing HTTP calls with HttpClientTestingModule",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-15-3",
+          "order": 92,
+          "title": "Assessment 4: Frontend Checkpoint",
+          "rawText": "Assessment 4: Frontend Checkpoint : Build an Angular + TypeScript app consuming a provided REST API with routing, state management (service-based), form handling, and component tests",
+          "description": "Build an Angular + TypeScript app consuming a provided REST API with routing, state management (service-based), form handling, and component tests",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-16",
+      "moduleIndex": 16,
+      "name": "16. Full-Stack Integration",
+      "topics": [
+        {
+          "id": "topic-16-1",
+          "order": 93,
+          "title": "Connecting Angular to ASP.NET Core",
+          "rawText": "Connecting Angular to ASP.NET Core : CORS configuration; proxy setup (proxy.conf.json); environment-based API URLs; environment.ts management",
+          "description": "CORS configuration; proxy setup (proxy.conf.json); environment-based API URLs; environment.ts management",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-16-2",
+          "order": 94,
+          "title": "End-to-End Data Flow",
+          "rawText": "End-to-End Data Flow : Form → HTTP service → Controller → Service → EF Core → DB → Response → Observable → UI update",
+          "description": "Form → HTTP service → Controller → Service → EF Core → DB → Response → Observable → UI update",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-16-3",
+          "order": 95,
+          "title": "Error Handling Across Stack",
+          "rawText": "Error Handling Across Stack : Backend validation errors → Angular error interceptor → component display; global error handling patterns",
+          "description": "Backend validation errors → Angular error interceptor → component display; global error handling patterns",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-16-4",
+          "order": 96,
+          "title": "Authentication Flow",
+          "rawText": "Authentication Flow : JWT login → token storage → HTTP interceptor for auth headers → route guards (frontend) → secured endpoints (backend)",
+          "description": "JWT login → token storage → HTTP interceptor for auth headers → route guards (frontend) → secured endpoints (backend)",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-16-5",
+          "order": 97,
+          "title": "Environment Management",
+          "rawText": "Environment Management : ASP.NET Core environments (Development/Staging/Production); Angular environment.ts files; config across environments",
+          "description": "ASP.NET Core environments (Development/Staging/Production); Angular environment.ts files; config across environments",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-16-6",
+          "order": 98,
+          "title": "AI Integration",
+          "rawText": "AI Integration : Using Copilot to wire full-stack features end-to-end; debugging integration issues with AI",
+          "description": "Using Copilot to wire full-stack features end-to-end; debugging integration issues with AI",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-17",
+      "moduleIndex": 17,
+      "name": "17. Microservices Concepts",
+      "topics": [
+        {
+          "id": "topic-17-1",
+          "order": 99,
+          "title": "Architecture Patterns",
+          "rawText": "Architecture Patterns : Monolithic vs microservices; when to use each; trade-offs; domain-driven design awareness",
+          "description": "Monolithic vs microservices; when to use each; trade-offs; domain-driven design awareness",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-17-2",
+          "order": 100,
+          "title": "Key Patterns",
+          "rawText": "Key Patterns : Service discovery; API gateway (Ocelot/YARP awareness); load balancing — concepts with .NET examples",
+          "description": "Service discovery; API gateway (Ocelot/YARP awareness); load balancing — concepts with .NET examples",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-17-3",
+          "order": 101,
+          "title": "Inter-Service Communication",
+          "rawText": "Inter-Service Communication : REST sync; messaging async (RabbitMQ/Azure Service Bus awareness); event-driven basics",
+          "description": "REST sync; messaging async (RabbitMQ/Azure Service Bus awareness); event-driven basics",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-18",
+      "moduleIndex": 18,
+      "name": "18. Docker & CI/CD",
+      "topics": [
+        {
+          "id": "topic-18-1",
+          "order": 102,
+          "title": "Docker Fundamentals",
+          "rawText": "Docker Fundamentals : Images, containers, Dockerfile; multi-stage builds for .NET; Docker Compose for local dev",
+          "description": "Images, containers, Dockerfile; multi-stage builds for .NET; Docker Compose for local dev",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-18-2",
+          "order": 103,
+          "title": "CI/CD Concepts",
+          "rawText": "CI/CD Concepts : Pipeline structure; build → test → scan → deploy; GitHub Actions basics (hands-on pipeline for .NET + Angular)",
+          "description": "Pipeline structure; build → test → scan → deploy; GitHub Actions basics (hands-on pipeline for .NET + Angular)",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-18-3",
+          "order": 104,
+          "title": "Kubernetes Awareness",
+          "rawText": "Kubernetes Awareness : What it is; pods, services, deployments — concepts only",
+          "description": "What it is; pods, services, deployments — concepts only",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-19",
+      "moduleIndex": 19,
+      "name": "19. Cloud Awareness",
+      "topics": [
+        {
+          "id": "topic-19-1",
+          "order": 105,
+          "title": "Cloud Fundamentals",
+          "rawText": "Cloud Fundamentals : IaaS, PaaS, SaaS; major providers (AWS/Azure/GCP); key services — compute, storage, RDS, API gateway, serverless",
+          "description": "IaaS, PaaS, SaaS; major providers (AWS/Azure/GCP); key services — compute, storage, RDS, API gateway, serverless",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-20",
+      "moduleIndex": 20,
+      "name": "20. Security Practices",
+      "topics": [
+        {
+          "id": "topic-20-1",
+          "order": 106,
+          "title": "OWASP Top 10",
+          "rawText": "OWASP Top 10 : Top vulnerabilities with C# and JavaScript/TypeScript examples; what AI tools commonly get wrong",
+          "description": "Top vulnerabilities with C# and JavaScript/TypeScript examples; what AI tools commonly get wrong",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-21",
+      "moduleIndex": 21,
+      "name": "21. AI-Augmented Development",
+      "topics": [
+        {
+          "id": "topic-21-1",
+          "order": 107,
+          "title": "GenAI Fundamentals & Ethics",
+          "rawText": "GenAI Fundamentals & Ethics : LLMs, NLP basics; GenAI in SDLC; AI vs Agents vs Agentic AI; responsible AI; secure prompting",
+          "description": "LLMs, NLP basics; GenAI in SDLC; AI vs Agents vs Agentic AI; responsible AI; secure prompting",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-21-2",
+          "order": 108,
+          "title": "Prompt Engineering",
+          "rawText": "Prompt Engineering : Techniques (few-shot, persona, chain-of-thought); being specific; iterative refinement; context management",
+          "description": "Techniques (few-shot, persona, chain-of-thought); being specific; iterative refinement; context management",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-21-3",
+          "order": 109,
+          "title": "GitHub Copilot — Advanced",
+          "rawText": "GitHub Copilot — Advanced : Copilot Chat modes; coding agents; Copilot code review",
+          "description": "Copilot Chat modes; coding agents; Copilot code review",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-22",
+      "moduleIndex": 22,
+      "name": "22. Agile & Project Readiness",
+      "topics": [
+        {
+          "id": "topic-22-1",
+          "order": 110,
+          "title": "Agile/Scrum Basics",
+          "rawText": "Agile/Scrum Basics : Sprints, standups, retrospectives; user stories; estimation; Definition of Done",
+          "description": "Sprints, standups, retrospectives; user stories; estimation; Definition of Done",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-22-2",
+          "order": 111,
+          "title": "Project Communication",
+          "rawText": "Project Communication : Status updates; raising blockers; PR descriptions; Jira/ticket management",
+          "description": "Status updates; raising blockers; PR descriptions; Jira/ticket management",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-22-3",
+          "order": 112,
+          "title": "Code Review Culture",
+          "rawText": "Code Review Culture : Reviewing others' code; receiving feedback; common review comments",
+          "description": "Reviewing others' code; receiving feedback; common review comments",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-22-4",
+          "order": 113,
+          "title": "Assessment 5: Final Assessment",
+          "rawText": "Assessment 5: Final Assessment : All topics included",
+          "description": "All topics included",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-23",
+      "moduleIndex": 23,
+      "name": "23. Full-Stack Capstone Project",
+      "topics": [
+        {
+          "id": "topic-23-1",
+          "order": 114,
+          "title": "Project",
+          "rawText": "Project  : At the end of the training, complete the assigned capstone project by applying all learned concepts to build and demonstrate a working solution",
+          "description": "At the end of the training, complete the assigned capstone project by applying all learned concepts to build and demonstrate a working solution",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-23-2",
+          "order": 115,
+          "title": "Evaluation criteria",
+          "rawText": "Evaluation criteria : The project will be evaluated using defined rubrics covering input validation, exception handling, logging, security, and adherence to coding best practices",
+          "description": "The project will be evaluated using defined rubrics covering input validation, exception handling, logging, security, and adherence to coding best practices",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        },
+        {
+          "id": "topic-23-3",
+          "order": 116,
+          "title": "Presentation & Review",
+          "rawText": "Presentation & Review : Demo to panel; code walkthrough; Q&A; peer review",
+          "description": "Demo to panel; code walkthrough; Q&A; peer review",
+          "hours": {
+            "sme": null,
+            "handsOn": null,
+            "elearn": null,
+            "total": null
+          }
+        }
+      ]
+    }
+  ],
+  "totalTopics": 116
+}
