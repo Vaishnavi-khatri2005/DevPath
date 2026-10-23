@@ -32,7 +32,7 @@ export default function Sidebar({
       <aside className={`sidebar ${!isOpen ? 'mobile-closed' : ''}`}>
         <div className="sidebar-header">
           <div className="sidebar-title-box">
-            <FolderTree size={18} color="var(--accent-cyan)" />
+            <FolderTree size={18} color="#563E51" />
             <span className="sidebar-title">Syllabus Outline</span>
             <span className="sidebar-badge">{categories.length} Modules</span>
           </div>

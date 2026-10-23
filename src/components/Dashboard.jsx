@@ -91,7 +91,7 @@ export default function Dashboard({
         <div className="stat-card">
           <div
             className="stat-icon-wrapper"
-            style={{ background: 'rgba(59, 130, 246, 0.15)', color: '#60a5fa' }}
+            style={{ background: 'rgba(86, 62, 81, 0.1)', color: '#563E51' }}
           >
             <BookOpen size={22} />
           </div>
@@ -104,7 +104,7 @@ export default function Dashboard({
         <div className="stat-card">
           <div
             className="stat-icon-wrapper"
-            style={{ background: 'rgba(16, 185, 129, 0.15)', color: '#34d399' }}
+            style={{ background: 'rgba(5, 150, 105, 0.12)', color: '#059669' }}
           >
             <CheckCircle2 size={22} />
           </div>
@@ -117,7 +117,7 @@ export default function Dashboard({
         <div className="stat-card">
           <div
             className="stat-icon-wrapper"
-            style={{ background: 'rgba(245, 158, 11, 0.15)', color: '#fbbf24' }}
+            style={{ background: 'rgba(199, 163, 189, 0.35)', color: '#563E51' }}
           >
             <Clock size={22} />
           </div>
@@ -130,7 +130,7 @@ export default function Dashboard({
         <div className="stat-card">
           <div
             className="stat-icon-wrapper"
-            style={{ background: 'rgba(100, 116, 139, 0.15)', color: '#94a3b8' }}
+            style={{ background: 'rgba(234, 220, 231, 0.8)', color: '#563E51' }}
           >
             <ListTodo size={22} />
           </div>
@@ -145,7 +145,7 @@ export default function Dashboard({
       <section>
         <div className="section-header">
           <h2 className="section-title">
-            <Folder size={20} color="var(--accent-cyan)" />
+            <Folder size={20} color="#563E51" />
             <span>Course Modules ({categories.length} Modules)</span>
           </h2>
           <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>

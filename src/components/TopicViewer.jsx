@@ -428,14 +428,14 @@ export default function TopicViewer({
       {Array.isArray(lesson?.objectives) && lesson.objectives.length > 0 && (
         <section id="sec-objectives" className="lesson-section-card">
           <h2 className="section-heading">
-            <CheckSquare size={18} color="var(--accent-cyan)" />
+            <CheckSquare size={18} color="#563E51" />
             <span>Learning Objectives</span>
           </h2>
           <p className="section-lead">By completing this lesson, you will be able to:</p>
           <ul className="objectives-list">
             {lesson.objectives.map((obj, i) => (
               <li key={i} className="objective-item">
-                <CheckCircle2 size={16} color="#10b981" className="objective-icon" />
+                <CheckCircle2 size={16} color="#059669" className="objective-icon" />
                 <span>{obj}</span>
               </li>
             ))}
@@ -447,7 +447,7 @@ export default function TopicViewer({
       {lesson?.prerequisites && (
         <section id="sec-prereq" className="lesson-section-card">
           <h2 className="section-heading">
-            <Compass size={18} color="#60a5fa" />
+            <Compass size={18} color="#563E51" />
             <span>Prerequisites</span>
           </h2>
           <p className="section-lead">Before diving into this topic, it helps to be comfortable with:</p>
@@ -471,7 +471,7 @@ export default function TopicViewer({
       {Array.isArray(lesson?.terminology) && lesson.terminology.length > 0 && (
         <section id="sec-terms" className="lesson-section-card">
           <h2 className="section-heading">
-            <BookOpen size={18} color="#a78bfa" />
+            <BookOpen size={18} color="#563E51" />
             <span>Key Terminology & Definitions</span>
           </h2>
           <div className="terminology-grid">
@@ -489,7 +489,7 @@ export default function TopicViewer({
       {Array.isArray(lesson?.concepts) && lesson.concepts.length > 0 && (
         <section id="sec-concepts" className="lesson-section-card">
           <h2 className="section-heading">
-            <Layers size={18} color="var(--accent-cyan)" />
+            <Layers size={18} color="#563E51" />
             <span>Core Concepts & Practical Implementation</span>
           </h2>
 
@@ -519,7 +519,7 @@ export default function TopicViewer({
                 {concept.output && (
                   <div className="output-box">
                     <div className="output-header">
-                      <Terminal size={14} color="#38bdf8" />
+                      <Terminal size={14} color="#C7A3BD" />
                       <span>Expected Output / Terminal Result</span>
                     </div>
                     <pre className="output-pre">
@@ -532,7 +532,7 @@ export default function TopicViewer({
                 {concept.lineExplanation && (
                   <div className="line-explanation-box">
                     <div className="line-explanation-header">
-                      <ListOrdered size={14} color="#fbbf24" />
+                      <ListOrdered size={14} color="#563E51" />
                       <span>Code Walkthrough & Line Explanation</span>
                     </div>
                     <ul className="line-explanation-list">
@@ -556,7 +556,7 @@ export default function TopicViewer({
       {lesson?.diagram && (
         <section id="sec-diagram" className="lesson-section-card">
           <h2 className="section-heading">
-            <Layers size={18} color="#38bdf8" />
+            <Layers size={18} color="#563E51" />
             <span>Architecture & Workflow Diagram</span>
           </h2>
           <div className="diagram-box">
@@ -569,7 +569,7 @@ export default function TopicViewer({
       {lesson?.realWorldApplication && (
         <section id="sec-realworld" className="lesson-section-card">
           <h2 className="section-heading">
-            <Lightbulb size={18} color="#fbbf24" />
+            <Lightbulb size={18} color="#563E51" />
             <span>Production & Real-World Application</span>
           </h2>
           <div className="realworld-box">
@@ -582,19 +582,19 @@ export default function TopicViewer({
       {Array.isArray(lesson?.commonErrors) && lesson.commonErrors.length > 0 && (
         <section id="sec-pitfalls" className="lesson-section-card">
           <h2 className="section-heading">
-            <AlertTriangle size={18} color="#f87171" />
+            <AlertTriangle size={18} color="#dc2626" />
             <span>Common Pitfalls & Debugging Guidance</span>
           </h2>
           <div className="errors-grid">
             {lesson.commonErrors.map((err, i) => (
               <div key={i} className="error-card">
                 <div className="error-badge">
-                  <AlertTriangle size={14} color="#ef4444" />
+                  <AlertTriangle size={14} color="#dc2626" />
                   <span>Pitfall:</span>
                 </div>
                 <div className="error-msg">{err.error}</div>
                 <div className="solution-box">
-                  <strong style={{ color: '#10b981' }}>How to fix:</strong> {err.solution}
+                  <strong style={{ color: '#059669' }}>How to fix:</strong> {err.solution}
                 </div>
               </div>
             ))}
@@ -606,13 +606,13 @@ export default function TopicViewer({
       {Array.isArray(lesson?.bestPractices) && lesson.bestPractices.length > 0 && (
         <section id="sec-practices" className="lesson-section-card">
           <h2 className="section-heading">
-            <ShieldCheck size={18} color="#34d399" />
+            <ShieldCheck size={18} color="#059669" />
             <span>Industry Best Practices</span>
           </h2>
           <ul className="best-practices-list">
             {lesson.bestPractices.map((bp, i) => (
               <li key={i} className="practice-item">
-                <CheckCircle2 size={16} color="#10b981" className="practice-icon" />
+                <CheckCircle2 size={16} color="#059669" className="practice-icon" />
                 <span>{bp}</span>
               </li>
             ))}
@@ -625,7 +625,7 @@ export default function TopicViewer({
         <section id="sec-practice" className="lesson-section-card">
           <div className="section-heading-row">
             <h2 className="section-heading">
-              <HelpCircle size={18} color="#60a5fa" />
+              <HelpCircle size={18} color="#563E51" />
               <span>Self-Test Practice Questions ({lesson.practiceQuestions.length})</span>
             </h2>
             <span className="practice-hint">Select your answer, then reveal the explanation</span>
@@ -643,7 +643,7 @@ export default function TopicViewer({
       {lesson?.revisionSummary && (
         <section id="sec-revision" className="lesson-section-card revision-card">
           <h2 className="section-heading">
-            <Sparkles size={18} color="#fbbf24" />
+            <Sparkles size={18} color="#563E51" />
             <span>Key Takeaways & Quick Revision</span>
           </h2>
           <div className="revision-content">
@@ -664,7 +664,7 @@ export default function TopicViewer({
       {Array.isArray(lesson?.references) && lesson.references.length > 0 && (
         <section id="sec-references" className="lesson-section-card">
           <h2 className="section-heading">
-            <ExternalLink size={18} color="#38bdf8" />
+            <ExternalLink size={18} color="#563E51" />
             <span>Official Documentation & References</span>
           </h2>
           <div className="references-grid">
@@ -690,7 +690,7 @@ export default function TopicViewer({
       {/* 12. Personal Study Notes Scratchpad */}
       <section id="sec-notes" className="lesson-section-card">
         <h2 className="section-heading">
-          <FileText size={18} color="#fbbf24" />
+          <FileText size={18} color="#563E51" />
           <span>Personal Study Notes & Scratchpad</span>
         </h2>
         <p className="section-lead">

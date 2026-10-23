@@ -72,7 +72,7 @@ export default function Topbar({
 
       <div className="topbar-right">
         <div className="offline-badge" title="All 116 lessons are preloaded locally for offline study">
-          <Sparkles size={13} color="var(--accent-cyan)" />
+          <Sparkles size={13} color="#563E51" />
           <span>Preloaded & Offline</span>
         </div>
 

@@ -60,7 +60,7 @@ export default function TopicTree({
             >
               <div className="category-left">
                 {isExpanded ? (
-                  <ChevronDown size={16} color="var(--accent-cyan)" />
+                  <ChevronDown size={16} color="#563E51" />
                 ) : (
                   <ChevronRight size={16} color="var(--text-muted)" />
                 )}
@@ -100,8 +100,8 @@ export default function TopicTree({
                       {isBookmarked && (
                         <Bookmark
                           size={12}
-                          fill="var(--accent-cyan)"
-                          color="var(--accent-cyan)"
+                          fill="#C7A3BD"
+                          color="#C7A3BD"
                           style={{ marginLeft: 'auto', flexShrink: 0 }}
                           title="Bookmarked"
                         />
