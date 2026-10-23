@@ -82,7 +82,7 @@ export default function Dashboard({
 
         <div className="welcome-progress-circle">
           <span className="progress-number">{percentComplete}%</span>
-          <span className="progress-label">Course Progress</span>
+          <span className="progress-label">Completed</span>
         </div>
       </section>
 
